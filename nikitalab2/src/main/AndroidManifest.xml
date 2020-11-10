@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".smirnovActivitySecond"></activity>
+        <activity android:name=".smirnovActivitySecond"
+            android:parentActivityName=".nikitaActivity"></activity>
         <activity android:name=".nikitaActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
