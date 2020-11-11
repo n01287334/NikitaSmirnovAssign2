@@ -60,19 +60,7 @@
 <!--        android:dividerHeight="1dp">-->
 <!--    </ListView>-->
 
-    <ListView
-        android:id="@+id/nikitadetachedlist"
-        android:layout_width="409dp"
-        android:layout_height="647dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <ListView
-        android:id="@+id/nikitasemilist"
-        android:layout_width="409dp"
-        android:layout_height="647dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
