@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!---->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,7 +8,7 @@
     tools:context=".smirnovActivitySecond">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/nikitatextView"
         android:layout_width="193dp"
         android:layout_height="58dp"
         android:layout_marginTop="24dp"
@@ -16,28 +17,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-<!--    <ListView-->
-<!--        android:id="@+id/flatlist"-->
-<!--        android:layout_width="409dp"-->
-<!--        android:layout_height="647dp"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" >-->
+    <ListView
+        android:id="@+id/nikitaflatlist"
+        android:layout_width="409dp"
+        android:layout_height="647dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
 
-<!--&lt;!&ndash;        <CheckBox&ndash;&gt;-->
-<!--&lt;!&ndash;            android:id="@+id/list_view_item_checkbox"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:width="0dp"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:layout_weight="1"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:clickable="false"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:focusable="false"/>&ndash;&gt;-->
+<!--        <CheckBox-->
+<!--            android:id="@+id/list_view_item_checkbox"-->
+<!--            android:width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:clickable="false"-->
+<!--            android:focusable="false"/>-->
 
-<!--&lt;!&ndash;        <TextView&ndash;&gt;-->
-<!--&lt;!&ndash;            android:id="@+id/list_view_item_text"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:layout_weight="9"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;            android:textSize="20dp"/>&ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/list_view_item_text"-->
+<!--            android:layout_weight="9"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="20dp"/>-->
 
 
 <!--        <TextView-->
@@ -45,11 +46,11 @@
 <!--            android:layout_width="wrap_content"-->
 <!--            android:layout_height="wrap_content"-->
 <!--            android:text="TextView" />-->
-<!--    </ListView>-->
+    </ListView>
 
 <!--    <ListView xmlns:android="http://schemas.android.com/apk/res/android"-->
 <!--        xmlns:tools="http://schemas.android.com/tools"-->
-<!--        android:id="@+id/simpleListView"-->
+<!--        android:id="@+id/nikitasimpleListView"-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="wrap_content"-->
 <!--        tools:context="nikita.smirnov.n01287334.smirnovActivitySecond"-->
@@ -59,7 +60,19 @@
 <!--        android:dividerHeight="1dp">-->
 <!--    </ListView>-->
 
+    <ListView
+        android:id="@+id/nikitadetachedlist"
+        android:layout_width="409dp"
+        android:layout_height="647dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <ListView
+        android:id="@+id/nikitasemilist"
+        android:layout_width="409dp"
+        android:layout_height="647dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

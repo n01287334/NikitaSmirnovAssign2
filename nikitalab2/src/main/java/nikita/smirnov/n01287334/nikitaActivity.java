@@ -1,3 +1,5 @@
+//Nikita Smirnov n01287334 RNB
+
 package nikita.smirnov.n01287334;
 
 import androidx.appcompat.app.AppCompatActivity;

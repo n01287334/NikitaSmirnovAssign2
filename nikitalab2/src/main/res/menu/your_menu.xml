@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <item
-        android:id="@+id/flat"
+        android:id="@+id/nikitaflat"
         android:title="apartments"></item>
     <item
-        android:id="@+id/detached"
+        android:id="@+id/nikitadetached"
         android:title="detached"></item>
     <item
-        android:id="@+id/semi"
+        android:id="@+id/nikitasemi"
         android:title="semi"></item>
 
 </menu>
