@@ -47,17 +47,17 @@
 <!--            android:text="TextView" />-->
 <!--    </ListView>-->
 
-    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/simpleListView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:context="nikita.smirnov.n01287334.smirnovActivitySecond"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:divider="gray"
-        android:dividerHeight="1dp">
-    </ListView>
+<!--    <ListView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        xmlns:tools="http://schemas.android.com/tools"-->
+<!--        android:id="@+id/simpleListView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        tools:context="nikita.smirnov.n01287334.smirnovActivitySecond"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:divider="gray"-->
+<!--        android:dividerHeight="1dp">-->
+<!--    </ListView>-->
 
     <ListView
         android:id="@+id/detachedlist"
